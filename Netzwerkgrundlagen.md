@@ -174,7 +174,7 @@ Welches Protokoll wird verwendet, um die Erreichbarkeit eines Hosts in einem Net
 <div id="question13">
   <ol>
     <li><button onclick="checkAnswer('question13', '', false)">DNS</button></li>
-    <li><button onclick="checkAnswer('question13', 'Das Internet Control Message Protocol (ICMP) wird verwendet, um die Erreichbarkeit eines Hosts zu überprüfen, z. B. durch den Einsatz des 'ping'-Befehls.', true)">ICMP</button></li>
+    <li><button onclick="checkAnswer('question13', 'Das Internet Control Message Protocol (ICMP) wird verwendet, um die Erreichbarkeit eines Hosts zu überprüfen, z. B. durch den Einsatz des ping-Befehls.', true)">ICMP</button></li>
     <li><button onclick="checkAnswer('question13', '', false)">UDP</button></li>
     <li><button onclick="checkAnswer('question13', '', false)">SNMP</button></li>
   </ol>
