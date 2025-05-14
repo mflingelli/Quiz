@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Netzwerk-Quiz</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+    <h1>Netzwerk-Quiz</h1>
+    <p>Hier kannst du dein Wissen testen.</p>
+    <div id="quiz-content">Lädt die 15 Fragen...</div>
+    <script>
+        fetch('Netzwerkgrundlagen.md')
+            .then(response => response.text())
+            .then(text => {
+                let converter = new showdown.Converter();
+                document.getElementById('quiz-content').innerHTML = converter.makeHtml(text);
+            });
+    </script>
+</body>
+</html>
