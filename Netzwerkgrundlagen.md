@@ -169,7 +169,7 @@ Was ist der Zweck des Subnettings in einem Netzwerk?
 
 ### Frage 13
 
-Welches Protokoll wird verwendet, um IP-Adressen automatisch zuzuweisen?
+Welches Protokoll wird verwendet, um die Erreichbarkeit eines Hosts in einem Netzwerk zu überprüfen?
 
 <div id="question13">
   <ol>
@@ -197,7 +197,7 @@ Was ist der Unterschied zwischen TCP und UDP?
 
 ### Frage 15
 
-Welches Protokoll wird verwendet, um IP-Adressen automatisch zuzuweisen?
+Welche Schicht des OSI-Modells ist für die Verschlüsselung von Daten verantwortlich?
 
 <div id="question15">
   <ol>
