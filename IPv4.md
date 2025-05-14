@@ -19,9 +19,7 @@ Was ist die maximale Anzahl von Hosts in einem Netzwerk mit der Subnetzmaske 255
 
 <div id="question2">
   <ol>
-    <li><button onclick="checkAnswer('question2', 'Die Subnetzmaske 
-255.255.255.0
- erlaubt 256 Adressen, von denen 2 für Netzwerk- und Broadcast-Adressen reserviert sind. Daher können 254 Hosts verwendet werden.', true)">254 Hosts</button></li>
+    <li><button onclick="checkAnswer('question2', 'Die Subnetzmaske 255.255.255.0 erlaubt 256 Adressen, von denen 2 für Netzwerk- und Broadcast-Adressen reserviert sind. Daher können 254 Hosts verwendet werden.', true)">254 Hosts</button></li>
     <li><button onclick="checkAnswer('question2', '', false)">256 Hots</button></li>
     <li><button onclick="checkAnswer('question2', '', false)">510 Hosts</button></li>
     <li><button onclick="checkAnswer('question2', '', false)">512 Hosts</button></li>
