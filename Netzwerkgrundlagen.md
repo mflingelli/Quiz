@@ -33,7 +33,7 @@ Welche der folgenden IP-Adressen gehört zum privaten Adressbereich?
 
 <div id="question3">
   <ol>
-    <li><button onclick="checkAnswer('question3', '<code>192.168.1.1</code> gehört zum privaten Adressbereich (<code>192.168.0.0</code> bis <code>192.168.255.255</code>), der für lokale Netzwerke reserviert ist.', true)">192.168.1.1</button></li>
+    <li><button onclick="checkAnswer('question3', '192.168.1.1 gehört zum privaten Adressbereich (192.168.0.0 bis 192.168.255.255), der für lokale Netzwerke reserviert ist.', true)">192.168.1.1</button></li>
     <li><button onclick="checkAnswer('question3', '', false)">8.8.8.8</button></li>
     <li><button onclick="checkAnswer('question3', '', false)">172.32.0.1</button></li>
     <li><button onclick="checkAnswer('question3', '', false)">203.0.113.1</button></li>
@@ -105,7 +105,7 @@ Welches Protokoll wird verwendet, um Domainnamen in IP-Adressen aufzulösen?
   <ol>
     <li><button onclick="checkAnswer('question8', '', false)">FTP</button></li>
     <li><button onclick="checkAnswer('question8', '', false)">HTTP</button></li>
-    <li><button onclick="checkAnswer('question8', 'Das Domain Name System (DNS) wird verwendet, um menschenlesbare Domainnamen (z. B. <code>www.example.com</code>) in IP-Adressen (z. B. <code>192.0.2.1</code>) aufzulösen.', true)">DNS</button></li>
+    <li><button onclick="checkAnswer('question8', 'Das Domain Name System (DNS) wird verwendet, um menschenlesbare Domainnamen (z. B. www.example.com) in IP-Adressen (z. B. 192.0.2.1) aufzulösen.', true)">DNS</button></li>
     <li><button onclick="checkAnswer('question8', '', false)">SMTP</button></li>
   </ol>
   <p id="result_question8"></p>
@@ -137,6 +137,76 @@ Welches Gerät wird verwendet, um ein drahtloses Netzwerk bereitzustellen?
     <li><button onclick="checkAnswer('question10', '', false)">Modem</button></li>
   </ol>
   <p id="result_question10"></p>
+</div>
+
+### Frage 11
+
+Welches Protokoll wird häufig für den sicheren Datentransfer im Internet verwendet?
+
+<div id="question11">
+  <ol>
+    <li><button onclick="checkAnswer('question11', '', false)">HTTP</button></li>
+    <li><button onclick="checkAnswer('question11', '', false)">FTP</button></li>
+    <li><button onclick="checkAnswer('question11', 'HTTPS (Hypertext Transfer Protocol Secure) wird verwendet, um Daten sicher über das Internet zu übertragen. Es verschlüsselt die Kommunikation zwischen Client und Server.', true)">HTTPS</button></li>
+    <li><button onclick="checkAnswer('question11', '', false)">SMTP</button></li>
+  </ol>
+  <p id="result_question11"></p>
+</div>
+
+### Frage 12
+
+Was ist der Zweck des Subnettings in einem Netzwerk?
+
+<div id="question12">
+  <ol>
+    <li><button onclick="checkAnswer('question12', 'Subnetting teilt ein großes Netzwerk in kleinere Subnetze auf, um die Effizienz zu erhöhen, die Verwaltung zu erleichtern und die Nutzung von IP-Adressen zu optimieren.', true)">Es teilt ein Netzwerk in kleinere, effizientere Subnetze auf.</button></li>
+    <li><button onclick="checkAnswer('question12', '', false)">Es erhöht die Bandbreite eines Netzwerks.</button></li>
+    <li><button onclick="checkAnswer('question12', '', false)">Es ermöglicht die Verschlüsselung von Datenpaketen.</button></li>
+    <li><button onclick="checkAnswer('question12', '', false)">Es reduziert die Anzahl der benötigten Router.</button></li>
+  </ol>
+  <p id="result_question12"></p>
+</div>
+
+### Frage 13
+
+Welches Protokoll wird verwendet, um IP-Adressen automatisch zuzuweisen?
+
+<div id="question13">
+  <ol>
+    <li><button onclick="checkAnswer('question13', '', false)">DNS</button></li>
+    <li><button onclick="checkAnswer('question13', 'Das Internet Control Message Protocol (ICMP) wird verwendet, um die Erreichbarkeit eines Hosts zu überprüfen, z. B. durch den Einsatz des 'ping'-Befehls.', true)">ICMP</button></li>
+    <li><button onclick="checkAnswer('question13', '', false)">UDP</button></li>
+    <li><button onclick="checkAnswer('question13', '', false)">SNMP</button></li>
+  </ol>
+  <p id="result_question13"></p>
+</div>
+
+### Frage 14
+
+Was ist der Unterschied zwischen TCP und UDP?
+
+<div id="question14">
+  <ol>
+    <li><button onclick="checkAnswer('question14', '', false)">TCP ist verbindungslos, während UDP verbindungsorientiert ist.</button></li>
+    <li><button onclick="checkAnswer('question14', '', false)">TCP wird für Echtzeitanwendungen verwendet, während UDP für Dateiübertragungen genutzt wird.</button></li>
+    <li><button onclick="checkAnswer('question14', 'TCP (Transmission Control Protocol) bietet eine zuverlässige, verbindungsorientierte Datenübertragung mit Fehlerkorrektur, während UDP (User Datagram Protocol) verbindungslos ist und keine Garantie für die Zustellung bietet, dafür aber schneller ist.', true)">TCP bietet zuverlässige Datenübertragung, während UDP schneller, aber unzuverlässig ist.</button></li>	
+    <li><button onclick="checkAnswer('question14', '', false)">TCP verschlüsselt Daten, während UDP dies nicht tut.</button></li>
+  </ol>
+  <p id="result_question14"></p>
+</div>
+
+### Frage 15
+
+Welches Protokoll wird verwendet, um IP-Adressen automatisch zuzuweisen?
+
+<div id="question15">
+  <ol>
+    <li><button onclick="checkAnswer('question15', '', false)">Netzwerkschicht</button></li>
+    <li><button onclick="checkAnswer('question15', '', false)">Transportschicht</button></li>
+    <li><button onclick="checkAnswer('question15', '', false)">Sitzungsschicht</button></li>
+	<li><button onclick="checkAnswer('question15', 'Die Darstellungsschicht (Layer 6) des OSI-Modells ist für die Verschlüsselung und Entschlüsselung von Daten verantwortlich, um die Sicherheit der Kommunikation zu gewährleisten.', true)">Darstellungsschicht</button></li>
+  </ol>
+  <p id="result_question15"></p>
 </div>
 
 <div id="endScreen" style="display: none;">
